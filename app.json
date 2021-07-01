@@ -1,6 +1,6 @@
 {
-  "name": "JMTHON - USERBOT",
-  "description": "Arabic Userbot - @JMTHON ",
+  "name": "CAT - USERBOT",
+  "description": "Arabic CAT - @RRRD7 ",
   "logo": "https://telegra.ph/file/6cd59ba38a12ec9595cd9.jpg",
   "keywords": [
     "plugin",
@@ -62,7 +62,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "رمز السورس",
-      "value": "Jmthon-iq",
+      "value": "arabiccat",
       "required": false
     }
   },
