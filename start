@@ -25,12 +25,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "arabiccat" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9O=" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9jYXR1c2VyYm90" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9KTS1USE9O=" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0pNVEhPTi1BUi9jYXR1c2VyYm90" | base64 -d`
     fi
     echo "$rlink"
 }
