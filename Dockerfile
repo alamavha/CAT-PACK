@@ -1,7 +1,7 @@
-FROM JMTHON-AR/JM-THON:alpine
+FROM JMTHON-AR/catuserbot:alpine
 
 #clonning repo 
-RUN git clone https://github.com/JMTHON-AR/JM-THON.git /root/userbot
+RUN git clone https://github.com/JMTHON-AR/catuserbot.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
